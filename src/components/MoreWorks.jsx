@@ -18,16 +18,16 @@ const ProjectCard = ({
   design
 }) => {
   return (
-    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="sm:w-[31%] xs:w-full">
+    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="sm:w-[31%] xs:w-[48%]">
       <Tilt
         options={{
           max: 20,
           scale: 1,
           speed: 200,
         }}
-        className='bg-white p-5 rounded-2xl w-full'
+        className='bg-white sm:p-5 xs:p-3 rounded-2xl w-full sm:min-h-full xs:min-h-full '
       >
-        <div className='relative w-full h-[210px]'>
+        <div className='relative w-full sm:h-[210px] xs:h-[140px]'>
           <img
             src={image}
             alt='project_image'
@@ -66,11 +66,11 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-black-200 font-bold text-[22px]'>{name}</h3>
+          <h3 className='text-black-200 font-bold sm:text-[22px] xs:text-[18px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px] sm:block xs:hidden'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className='mt-4 flex flex-wrap sm:gap-2 xs:gap-1'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag}`}
@@ -114,37 +114,31 @@ const MoreWorks = () => {
       <div className="flex w-full justify-center mt-4 sm:gap-3 xs:gap-2">
         <div
           onClick={() => {setCategory(otherProjects);}}
-          className='project bg-yellow-200 px-4 text-white font-[500] h-10 rounded-[10px] flex justify-center items-center gap-2 cursor-pointer duration-200 hover:bg-point'
+          className='project bg-yellow-200 sm:px-4 xs:px-2 h-10 text-white font-[500] rounded-[10px] flex justify-center items-center cursor-pointer duration-200 hover:bg-point'
         >
           All
         </div>
         <div
           onClick={()=>{filter("web")}}
-          className='project bg-yellow-200 px-4 text-white font-[500] h-10 rounded-[10px] flex justify-center items-center gap-2 cursor-pointer duration-200 hover:bg-point'
+          className='project bg-yellow-200 sm:px-4 xs:px-2 text-white font-[500] rounded-[10px] flex justify-center items-center cursor-pointer duration-200 hover:bg-point'
         >
           Web
         </div>
         <div
-          onClick={()=>{filter("code")}}
-          className='project bg-yellow-200 px-4 text-white font-[500] h-10 rounded-[10px] flex justify-center items-center gap-2 cursor-pointer duration-200 hover:bg-point'
-        >
-          Code
-        </div>
-        <div
           onClick={()=>{filter("game")}}
-          className='project bg-yellow-200 px-4 text-white font-[500] h-10 rounded-[10px] flex justify-center items-center gap-2 cursor-pointer duration-200 hover:bg-point'
+          className='project bg-yellow-200 sm:px-4 xs:px-2 text-white font-[500] rounded-[10px] flex justify-center items-center cursor-pointer duration-200 hover:bg-point'
         >
           Game
         </div>
         <div
           onClick={()=>{filter("ux")}}
-          className='project bg-yellow-200 px-4 text-white font-[500] h-10 rounded-[10px] flex justify-center items-center gap-2 cursor-pointer duration-200 hover:bg-point'
+          className='project bg-yellow-200 sm:px-4 xs:px-2 text-white font-[500] rounded-[10px] flex justify-center items-center cursor-pointer duration-200 hover:bg-point'
         >
-          UX
+          UX / Design
         </div>
       </div>
 
-      <div className='sm:mt-12 xs:mt-8 flex flex-wrap gap-8'>
+      <div className='sm:mt-12 xs:mt-8 flex flex-wrap sm:gap-8 xs:gap-x-[4%] xs:gap-y-4'>
         {catgory.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

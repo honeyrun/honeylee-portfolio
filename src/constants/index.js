@@ -2,11 +2,11 @@ import {
  
   javascript,
   html,
-  css,
   reactjs,
   nodejs,
   git,
   vuejs,
+  angular,
   jquery,
   mysql,
   php,
@@ -21,7 +21,7 @@ import {
 
   moreSub,
   graduation,
-  vigenere,
+  hangVan,
   cms,
   
 } from "../assets";
@@ -48,23 +48,19 @@ export const navLinks = [
 
 const techF1 = [
   {
-    name: "HTML 5",
+    name: "HTML / CSS",
     icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
-];
-const techF2 = [
   {
     name: "Jquery",
     icon: jquery,
   },
+];
+const techF2 = [
   {
     name: "React JS",
     icon: reactjs,
@@ -73,6 +69,11 @@ const techF2 = [
     name: "Vue JS",
     icon: vuejs,
   },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+ 
 ];
 
 const techB = [
@@ -160,7 +161,7 @@ const otherProjects = [
     tags: ["React", "PHP", "MySQL"],
     image: cms,
     source_code: "https://github.com/LuhPaglia/final-project-beavers",
-    live_demo: "https://youtu.be/hgPjiwBJk-g"
+    live_demo: "https://drive.google.com/file/d/128hy88OCCGLvAe7Hb5XVOOvr5tgO8jQ0/view?usp=share_link"
   },
   // {
   //   name: "Job IT",
@@ -172,19 +173,20 @@ const otherProjects = [
   //   source_code: "https://github.com/",
   // },
   {
-    name: "Vigenere Cipher",
+    name: "HangVan Website",
     description:
-      "Implemented Vigenere encryption method with PHP and accessing filesystem to write and upload the file",
-    category: "code",
-    tags: ["PHP"],
-    image: vigenere,
-    source_code: "https://github.com/honeyrun/vigenereCipher",
+      "Responsive website to introduce recent events and famous places in Vancouver.",
+    category: "web",
+    tags: ["HTML", "SCSS"],
+    image: hangVan,
+    source_code: "https://github.com/honeyrun/Hangvan_remake",
+    live_demo: "https://honeyrun.github.io/Hangvan_remake/index.html"
   },
   {
     name: "Graduation Exhibition Website Design",
     description:
       "Responsible for making exhibition website's header video & poster visual",
-    category: "web",
+    category: "ux",
     tags: ["Adobe XD", "Illustrator", "C4D"],
     image: graduation,
     design: "https://www.behance.net/gallery/160621831/SWU-Graduation-Project-Website-and-Application-Design",

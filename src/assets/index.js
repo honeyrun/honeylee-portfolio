@@ -4,13 +4,13 @@ import close from "./close.svg";
 import hello from "./hello.png";
 import profile from "./profile.png"
 
-import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import vuejs from "./tech/vuejs.png";
+import angular from "./tech/angular.png"
 import jquery from "./tech/jquery.png";
 import mysql from "./tech/mysql.png";
 import php from "./tech/php.png";
@@ -24,7 +24,7 @@ import subnetCal from "./works/subnetCal.jpg";
 import doughnut from "./works/doughnut.jpg";
 import moreSub from "./works/moresub.jpg";
 import graduation from "./works/graduation.jpg";
-import vigenere from "./works/vigenere.jpg";
+import hangVan from "./works/hangVan.jpg";
 import cms from "./works/cms.jpg";
 
 
@@ -35,13 +35,13 @@ export {
   hello,
   profile,
   
-  css,
   git,
   html,
   javascript,
   nodejs,
   reactjs,
   vuejs,
+  angular,
   jquery,
   mysql,
   php,
@@ -56,7 +56,7 @@ export {
 
   moreSub,
   graduation,
-  vigenere,
+  hangVan,
   cms,
 
   
