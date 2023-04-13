@@ -16,13 +16,16 @@ import {
   aftereffects,
 
   javaGame,
-  subnetCal,
   doughnut,
+  movie,
 
   moreSub,
   graduation,
   hangVan,
   cms,
+  subnetCal,
+  game1,
+  game2,
   
 } from "../assets";
 
@@ -124,22 +127,15 @@ const projects = [
     source_code: "https://github.com/honeyrun/DoughnutShopRemake",
     live_demo: "https://honey-project-maple-doughnut.netlify.app/"
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: ["Javascript", "Jquery", "CSS"],
-  //   image: jobit,
-  //   source_code: "https://github.com/",
-  // },
   {
-    name: "Subnet Calculator",
+    name: "Spiderman Movie Website",
     description:
-      "Given the requied number of hosts or subnets, get the prefix /subnet mask and calculate subnet result",
-    tags: ["Javascript", "Jquery", "Bootstrap"],
-    image: subnetCal,
-    source_code: "https://github.com/honeyrun/subnetCalculator",
-    live_demo: "https://honeyrun.github.io/subnetCalculator/"
+      "For a personal project, I made 'Spider-Man: No Way Home' promotion website. I designed all the pages from scratch and implement a prototype website",
+    tags: ["Javascript", "Jquery", "Photoshop"],
+    image: movie,
+    source_code: "https://github.com/honeyrun/Spiderman_promotion_web",
+    live_demo: "https://honeyrun.github.io/Spiderman_promotion_web/",
+    design: "https://www.behance.net/gallery/160622229/SPIDERMAN-Movie-Promotion-Web-Design-personal-project"
   },
   {
     name: "Pacman Mini Game",
@@ -163,15 +159,6 @@ const otherProjects = [
     source_code: "https://github.com/LuhPaglia/final-project-beavers",
     live_demo: "https://drive.google.com/file/d/128hy88OCCGLvAe7Hb5XVOOvr5tgO8jQ0/view?usp=share_link"
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   category: "game",
-  //   tags: ["Javascript", "Jquery", "CSS"],
-  //   image: jobit,
-  //   source_code: "https://github.com/",
-  // },
   {
     name: "HangVan Website",
     description:
@@ -181,6 +168,16 @@ const otherProjects = [
     image: hangVan,
     source_code: "https://github.com/honeyrun/Hangvan_remake",
     live_demo: "https://honeyrun.github.io/Hangvan_remake/index.html"
+  },
+  {
+    name: "Subnet Calculator",
+    description:
+      "Given the requied number of hosts or subnets, get the prefix /subnet mask and calculate subnet result",
+    category: "web",
+    tags: ["Javascript", "Jquery", "Bootstrap"],
+    image: subnetCal,
+    source_code: "https://github.com/honeyrun/subnetCalculator",
+    live_demo: "https://honeyrun.github.io/subnetCalculator/"
   },
   {
     name: "Graduation Exhibition Website Design",
@@ -200,7 +197,26 @@ const otherProjects = [
     tags: ["Adobe XD", "Illustrator", "After Effect"],
     image: moreSub,
     design: "https://www.behance.net/gallery/160622525/MORESUB-Concept-App-Design-UI-UX-personal-project",
-    live_demo: "",
+    // live_demo: "",
+  },
+  {
+    name: "RPG Dragon Unity Game",
+    description:
+      "Personal app design project that suggests a solution to solve the problem of managing many subscription services",
+    category: "game",
+    tags: ["(C#)", "Unity", "Photoshop"],
+    image: game2,
+    source_code: "https://github.com/honeyrun/RPG_dragon",
+    live_demo: "https://youtu.be/TvPRPepOvcA",
+  },  {
+    name: "Paint It Unity Game",
+    description:
+      "Personal app design project that suggests a solution to solve the problem of managing many subscription services",
+    category: "game",
+    tags: ["(C#)", "Unity"],
+    image: game1,
+    source_code: "https://github.com/honeyrun/PaintIt_unity",
+    live_demo: "https://youtu.be/m6i5c7i3jVc",
   },
 ];
 

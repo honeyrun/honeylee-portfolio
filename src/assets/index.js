@@ -26,6 +26,9 @@ import moreSub from "./works/moresub.jpg";
 import graduation from "./works/graduation.jpg";
 import hangVan from "./works/hangVan.jpg";
 import cms from "./works/cms.jpg";
+import game1 from "./works/unity1.jpg"
+import game2 from "./works/unity2.jpg"
+import movie from "./works/movie.jpg"
 
 
 export {
@@ -51,13 +54,16 @@ export {
   aftereffects,
 
   javaGame,
-  subnetCal,
   doughnut,
+  movie,
 
   moreSub,
   graduation,
   hangVan,
   cms,
+  subnetCal,
+  game1,
+  game2,
 
   
 };
