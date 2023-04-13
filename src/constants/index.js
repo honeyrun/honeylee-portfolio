@@ -130,7 +130,7 @@ const projects = [
   {
     name: "Spiderman Movie Website",
     description:
-      "For a personal project, I made 'Spider-Man: No Way Home' promotion website. I designed all the pages from scratch and implement a prototype website",
+      "Movie 'Spider-Man: No Way Home' promotion website. This is my first website in that I designed all the pages from scratch and implemented a prototype website",
     tags: ["Javascript", "Jquery", "Photoshop"],
     image: movie,
     source_code: "https://github.com/honeyrun/Spiderman_promotion_web",
