@@ -25,14 +25,14 @@ const About = () => {
             <p
               className='mt-4 text-secondary text-[18px] max-w-3xl leading-relaxed'
             >
-               I'm a skilled web developer with other various project experiences like App design and development, Game making, and motion graphics While doing those projects, I was fascinated by the process of making my 
+               I'm a web developer with other various project experiences like App design and development, Game making, and motion graphics While doing those projects, I was fascinated by the process of making my 
                <span className={styles.highlight}> creative ideas</span> into real products. I excel in designing and optimizing workflow of the websites that offer a smooth user experience. 
             </p>
             <p
               className='mt-4 text-secondary text-[18px] max-w-3xl leading-relaxed'
             >
                I am  <span className={styles.highlight}>self-motivated</span> to make ‘
-               <span className={styles.highlight}>user-friendly </span> and also aesthetic web products’ and also like solving logical problems. In addition, a <span className={styles.highlight}>good team player </span> who can fully contribute and adapt quickly to achieve the goal</p>
+               <span className={styles.highlight}>user-friendly </span> and also aesthetic web products’ and also like solving logical problems. In addition, a <span className={styles.highlight}>good team player </span> who can fully contribute and adapt quickly to achieve the goal.</p>
           </figcaption>
         </figure>
         
