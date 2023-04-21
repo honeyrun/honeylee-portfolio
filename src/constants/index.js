@@ -73,7 +73,7 @@ const techF2 = [
     icon: vuejs,
   },
   {
-    name: "Angular",
+    name: "Angular JS",
     icon: angular,
   },
  
@@ -138,26 +138,27 @@ const projects = [
     design: "https://www.behance.net/gallery/160622229/SPIDERMAN-Movie-Promotion-Web-Design-personal-project"
   },
   {
-    name: "Pacman Mini Game",
+    name: "Student Management Dashboard (CMS)",
     description:
-      "Simple javascript game inspired by 'Pacman'. Implemented gameloop to manipulate the timer and overall game flow",
-    tags: ["Javascript", "Jquery", "CSS"],
-    image: javaGame,
-    source_code: "https://github.com/honeyrun/Javascript_MiniGame",
-    live_demo: "https://honeyrun.github.io/Javascript_MiniGame/"
+      "Connect React app to MySQl DB to manage student data with 4 functions : get, add, delete, edit / In this project, I was responsible for implementing 4 main functions and reloading data when there's some changes",
+    // category: "web",
+    tags: ["React", "PHP", "MySQL"],
+    image: cms,
+    source_code: "https://github.com/LuhPaglia/final-project-beavers",
+    live_demo: "https://drive.google.com/file/d/128hy88OCCGLvAe7Hb5XVOOvr5tgO8jQ0/view?usp=share_link"
   },
 ];
 
 const otherProjects = [
   {
-    name: "Student Management Dashboard (CMS)",
+    name: "Pacman Mini Game",
     description:
-      "Connect React app to MySQl DB to manage student data / 4 functions : get, add, delete, edit data",
-    category: "web",
-    tags: ["React", "PHP", "MySQL"],
-    image: cms,
-    source_code: "https://github.com/LuhPaglia/final-project-beavers",
-    live_demo: "https://drive.google.com/file/d/128hy88OCCGLvAe7Hb5XVOOvr5tgO8jQ0/view?usp=share_link"
+      "Simple javascript game inspired by 'Pacman'. Implemented gameloop to manipulate the timer and overall game flow",
+    category: "game",
+    tags: ["Javascript", "Jquery", "CSS"],
+    image: javaGame,
+    source_code: "https://github.com/honeyrun/Javascript_MiniGame",
+    live_demo: "https://honeyrun.github.io/Javascript_MiniGame/"
   },
   {
     name: "HangVan Website",
@@ -202,7 +203,7 @@ const otherProjects = [
   {
     name: "RPG Dragon Unity Game",
     description:
-      "Personal app design project that suggests a solution to solve the problem of managing many subscription services",
+      "3D RPG game | Depending on the distance between player and dragon, the state of dragon is changing",
     category: "game",
     tags: ["(C#)", "Unity", "Photoshop"],
     image: game2,
@@ -211,7 +212,7 @@ const otherProjects = [
   },  {
     name: "Paint It Unity Game",
     description:
-      "Personal app design project that suggests a solution to solve the problem of managing many subscription services",
+      "Paint each food object using paint gun in the amount of time",
     category: "game",
     tags: ["(C#)", "Unity"],
     image: game1,
